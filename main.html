@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-150 flex flex-col min-h-screen">
+    <nav
+      class="flex flex-col items-center p-6 bg-indigo-400 text-white shadow-lg"
+    >
+      <div class="text-2xl font-bold mb-4">
+        <a
+          href="./main.html"
+          class="hover:text-indigo-300 transition max-[768px]:border-b-2 border-white"
+          >희원 홈페이지(Home)</a
+        >
+      </div>
+      <ul
+        class="flex space-x-8 text-xl font-bold max-[768px]:flex-col max-[768px]:space-x-0 max-[768px]:space-y-4 min-[768px]:space-x-8 min-[768px]:space-y-0"
+      >
+        <li>
+          <a
+            href="./resume.html"
+            class="hover:text-indigo-200 transition max-[768px]:border-b-2 border-white"
+            >이력서(Resume)</a
+          >
+        </li>
+        <li>
+          <a
+            href="./favorites.html"
+            class="hover:text-indigo-200 transition duration-0500 max-[768px]:border-b-2 border-white"
+            >사이트(Favorites)</a
+          >
+        </li>
+        <li>
+          <a
+            href="./contact.html"
+            class="hover:text-indigo-200 transition duration-0500 max-[768px]:border-b-2 border-white"
+            >연락처(Contact)</a
+          >
+        </li>
+        <li>
+          <a
+            href="./project.html"
+            class="hover:text-indigo-200 transition duration-0500 max-[768px]:border-b-2 border-white"
+            >프로젝트(Project)</a
+          >
+        </li>
+        <li>
+          <a
+            href="./gallery.html"
+            class="hover:text-indigo-200 transition duration-0500 max-[768px]:border-b-2 border-white"
+            >갤러리(Gallery)</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="flex-grow">
+      <h1 class="text-center text-3xl font-bold mb-4 mt-8">안녕하세요!</h1>
+      <main
+        class="flex justify-between gap-6 p-12 text-gray-800 max-w-7xl mx-auto max-[1024px]:flex-col"
+      >
+        <div
+          class="border border-indigo-300 rounded-lg p-8 flex-1 hover:shadow-lg transition max-[1024px]:w-5/6 mx-auto"
+        >
+          <h2 class="text-2xl font-semibold mb-4">자기소개</h2>
+          <div class="text-lg space-y-2">
+            <p>Name: 이희원</p>
+            <p>Age: 30</p>
+            <p>Motto: I never give up</p>
+            <p>Personality: 긍정적, 도움 주는 것을 좋아함</p>
+          </div>
+        </div>
+        <div
+          class="border border-indigo-300 rounded-lg p-8 flex-1 hover:shadow-lg transition max-[1024px]:w-5/6 mx-auto"
+        >
+          <h2 class="text-2xl font-semibold mb-4">사진</h2>
+          <div><img src="./img/my_img.png" alt="이희원_사진" /></div>
+        </div>
+        <div
+          class="border border-indigo-300 rounded-lg p-8 flex-1 hover:shadow-lg transition max-[1024px]:w-5/6 mx-auto"
+        >
+          <h2 class="text-2xl font-semibold mb-4">블로그 링크</h2>
+          <div class="text-lg">
+            <div class="mb-8">
+              <p class="mb-3">WEB 공부 정리 노션으로</p>
+              <a
+                href="https://www.notion.so/1daa9006a30a80f09f3fcd1a833eb28d?v=25aa9006a30a80318bfc000c20bc5fda"
+                target="_blank"
+                ><img
+                  src="./img/Notion-logo.svg.png"
+                  alt=""
+                  width="50"
+                  class="transition duration-300 transform hover:scale-125"
+              /></a>
+            </div>
+            <div>
+              <p class="mb-3">AI 공부 정리 노션으로</p>
+              <a
+                href="https://www.notion.so/24fa9006a30a80ae839be4487b88504e?v=287a9006a30a800fbcc9000c3265aa83"
+                target="_blank"
+              >
+                <img
+                  src="./img/Notion-logo.svg.png"
+                  alt=""
+                  width="50"
+                  class="transition duration-300 transform hover:scale-125"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div
+      class="fixed min-[768px]:top-10 right-8 flex flex-col gap-4 z-50 max-[768px]:bottom-8 max-[768px]:right-8 max-[768px]:top-auto"
+    >
+      <a
+        href="#top"
+        class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-110 flex items-center gap-2 min-[768px]:hidden"
+      >
+        ⬆️ TOP
+      </a>
+      <a
+        href="./project.html"
+        class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 transform hover:scale-110 flex items-center gap-2"
+      >
+        😎 프로젝트로 이동
+      </a>
+    </div>
+    <footer class="bg-indigo-400 text-white p-4 text-center mt-auto">
+      &copy; 2025 희원 홈페이지
+    </footer>
+  </body>
+</html>
